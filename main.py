@@ -4,7 +4,8 @@ def get_book_text(file_path):
 
 
 def word_counter(file_path):
-    return len(get_book_text(file_path).split())
+    num_words = len(get_book_text(file_path).split())
+    return f"{num_words} words found in the document"
 
 
 def main():
